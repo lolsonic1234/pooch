@@ -1,0 +1,68 @@
+body {
+    background-color: gray;
+}
+
+.mainbox {
+    position: absolute;
+    height: 40vw;
+    width: 50vw;
+    background-color: darkgray;
+    border-radius: 50px;
+    left: 40vw;
+    top: 8vw;
+}
+
+.puzzlepeices {
+    position: absolute;
+    height: 40vw;
+    width: 25vw;
+    background-color: darkgray;
+    border-radius: 50px;
+    left: 10vw;
+    top: 8vw;
+}
+
+.box {
+    background-color: white;
+}
+
+.text {
+    font-size: 2vw;
+}
+
+
+.textex {
+    font-size: 2vw;
+}
+
+.level {
+    position: absolute;
+    width: 101vw;
+    left: -1vw;
+    top: -2vw;
+    background-color: white;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.consolebox {
+    position: absolute;
+    width: 50vw;
+    height: 5vw;
+    top: 35vw;
+    background-color: black;
+}
+
+.codebox {
+    position: absolute;
+    width: 50vw;
+    height: 34vw;
+    top: 0vw;
+    background-color: lightgray;
+    overflow-y: scroll; 
+}
+
+.consoletext {
+    color: palegreen;
+    font-size: 2vw;
+}
